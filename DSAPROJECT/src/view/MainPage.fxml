@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainpageController">
+   <children>
+      <ScrollPane layoutX="-1.0" layoutY="-2.0" prefHeight="409.0" prefWidth="606.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="675.0" prefWidth="608.0">
+               <children>
+                  <ImageView fitHeight="742.0" fitWidth="1270.0" layoutX="-86.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/BGLOGIN.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="22.0" layoutY="23.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad1" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del1" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img1" fitHeight="99.0" fitWidth="111.0" layoutX="38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/lihim.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label1" layoutX="33.0" layoutY="115.0" text="Lihim by Arthur Miguel" textFill="#e1dcdc" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="208.0" layoutY="23.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad2" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del2" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img2" fitHeight="99.0" fitWidth="111.0" layoutX="38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/SNTY.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label2" layoutX="8.0" layoutY="115.0" text="Standing next to you by JK (BTS)" textFill="#e1dddd" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="394.0" layoutY="23.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad3" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del3" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img3" fitHeight="99.0" fitWidth="111.0" layoutX="38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/UnangSayaw.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label3" layoutX="30.0" layoutY="114.0" text="Unang Sayaw by Nobita" textFill="#f7f5f5" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="22.0" layoutY="214.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad4" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del4" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img4" fitHeight="99.0" fitWidth="111.0" layoutX="38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Mercy.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label4" layoutX="27.0" layoutY="116.0" text="Mercy by Shawn Mendez" textFill="#f4eeee" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="208.0" layoutY="214.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad5" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del5" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img5" fitHeight="100.0" fitWidth="133.0" layoutX="27.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/FleetingLullaby.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label5" layoutX="27.0" layoutY="116.0" prefHeight="17.0" prefWidth="127.0" text="Fleeting Lullaby by Ado" textFill="#151515" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="394.0" layoutY="214.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad6" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del6" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img6" fitHeight="99.0" fitWidth="111.0" layoutX="38.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Who.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label6" layoutX="38.0" layoutY="116.0" prefHeight="17.0" prefWidth="127.0" text="&quot;Who by Lauv, BTS" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="13.0" layoutY="420.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad7" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del7" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img7" fitHeight="91.0" fitWidth="135.0" layoutX="26.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/FuturePerfect.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label7" layoutX="31.0" layoutY="112.0" prefHeight="17.0" prefWidth="138.0" text="Future Perfect by ENHYPEN" textFill="WHITE" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="193.0" layoutY="422.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad8" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del8" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img8" fitHeight="95.0" fitWidth="120.0" layoutX="40.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Pasilyo.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label8" layoutX="31.0" layoutY="112.0" prefHeight="17.0" prefWidth="138.0" text="Pasilyo by Sunkissed Lola" textFill="#efe7e7" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="394.0" layoutY="420.0" prefHeight="191.0" prefWidth="186.0">
+                     <children>
+                        <Button fx:id="ad9" layoutX="27.0" layoutY="140.0" mnemonicParsing="false" onAction="#set" text="add" />
+                        <Button fx:id="del9" layoutX="107.0" layoutY="140.0" mnemonicParsing="false" onAction="#del" text="delete" />
+                        <ImageView fx:id="img9" fitHeight="90.0" fitWidth="126.0" layoutX="30.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/RainingInManila.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="label9" layoutX="31.0" layoutY="112.0" prefHeight="17.0" prefWidth="138.0" text="Raining in Manila by Lola Amour" textFill="WHITE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
